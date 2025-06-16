@@ -42,7 +42,7 @@ export default function Footer() {
                 <EnvelopeIcon className="w-4 h-4 mr-2" /> hello@bloomandroot.com
               </li>*/}
               <li className="flex items-center">
-                <MapPinIcon className="w-4 h-4 mr-2" /> Iju-Love, Ota,  Ogun State, Nigeria
+                <MapPinIcon className="w-4 h-4 mr-2" /> Iju-Love, Opposite Love B/Stop, Ota,  Ogun State, Nigeria
               </li>
             </ul>
           </div>

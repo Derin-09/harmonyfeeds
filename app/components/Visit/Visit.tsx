@@ -16,7 +16,7 @@ const Visit = () => {
         ></iframe>
       </div>
       <div className="mt-6">
-        <p className=" mb-2"><strong>Address:</strong> Iju-Love, Ota,  Ogun State, Nigeria</p>
+        <p className=" mb-2"><strong>Address:</strong> Iju-Love, Opposite Love B/Stop, Ota,  Ogun State, Nigeria</p>
         <p className=" mb-2"><strong>Hours:</strong> Mon-Sat: 9am-6:30pm</p>
         <div className=""><strong>Phone:</strong>
           <a href="tel:+2348163309006" className="text-white underline">
