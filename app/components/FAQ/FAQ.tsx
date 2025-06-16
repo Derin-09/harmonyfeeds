@@ -26,32 +26,44 @@ const FAQ = () => {
     const [active, setActive] = useState<number | null>(null)
 
     return (
+     <main
+  className="relative pb-10 select-none bg-no-repeat bg-cover pt-5 bg-center"
+  id="FAQ"
+  style={{ backgroundImage: "url('/images/background2.avif')" }}
+>
+  {/* ✅ Bottom fade only */}
+  <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-[#645D3D] z-0 pointer-events-none"></div>
 
-        <main className=' pb-10  select-none bg-gradient-to-b from-[#3F1D0E] to-[#645D3D] pt-5' id='FAQ'>
-            <p className='font-bold ml-5 pb-4 text-white text-2xl text-center mr-5'>Frequently Asked Questions</p>
+  <div className="relative z-10">
+    <p className="font-bold ml-5 pb-4 text-white text-2xl text-center mr-5">
+      Frequently Asked Questions
+    </p>
 
-            <div className='bg-white/25 rounded-2xl md:mx-15 mx-5'>
-                {options.map((opt) => (
-                    <div key={opt.id}>
-                        <div onClick={() => { console.log("clicked", opt.id); setActive(() => active === opt.id ? null : opt.id); }}>
-                            <div className=' hover:text-[#880015] active:text-[#880015] hover:cursor-pointer ml-5 mr-5 mb-0.5  py-4 flex justify-between items-center'>
-
-                                <p className='text-lg'>{opt.question}</p>
-                                <button className='text-4xl font-extralight'>
-                                    {active === opt.id ? "-" : "+"}
-                                </button>
-                            </div>
-                            {active === opt.id && (
-                                <div className={`  ml-5 mr-5 mb-2 py-6  flex justify-between items-center text-lg`}>
-                                    {opt.answer}
-                                </div>
-                            )}
-                        </div>
-
-                    </div>
-                ))}
+    <div className="bg-white/25 rounded-2xl md:mx-15 mx-5">
+      {options.map((opt) => (
+        <div key={opt.id}>
+          <div
+            onClick={() => setActive(active === opt.id ? null : opt.id)}
+            className="hover:text-[#880015] active:text-[#880015] hover:cursor-pointer ml-5 mr-5 mb-0.5 py-4 flex justify-between items-center"
+          >
+            <p className="text-lg">{opt.question}</p>
+            <button className="text-4xl font-extralight">
+              {active === opt.id ? '-' : '+'}
+            </button>
+          </div>
+          {active === opt.id && (
+            <div className="ml-5 mr-5 mb-2 py-6 flex justify-between items-center text-lg">
+              {opt.answer}
             </div>
-        </main>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</main>
+
+
+
     )
 }
 

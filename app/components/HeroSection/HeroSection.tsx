@@ -14,7 +14,7 @@ const HeroSection = () => {
         <NavBar />
       </div>
 
-      <section className="bg-black/70 h-full flex justify-center items-center relative">
+      <section className="bg-black/20 h-full flex justify-center items-center relative">
         <div className="text-white text-center px-5 z-10">
           <motion.p
             initial={{ opacity: 0, y: -20 }}
@@ -34,9 +34,7 @@ const HeroSection = () => {
             Harmony Feeds, Ota, Ogun State, is your go-to source for 100% organic animal feed, fertilizer, and medicine.
           </motion.p>
         </div>
-
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b via-[#3F1D0E]/5 from-transparent to-[#3F1D0E]"></div>
+       <div className="absolute inset-0 bg-gradient-to-b via-[#3F1D0E]/5 from-transparent to-[#3F1D0E]"></div>
       </section>
     </main>
   )
