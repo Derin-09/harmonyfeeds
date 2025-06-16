@@ -30,7 +30,7 @@ const FAQ = () => {
         <main className=' pb-10  select-none bg-gradient-to-b from-[#645D3D] to-[#3F1D0E] pt-5' id='FAQ'>
             <p className='font-bold ml-5 pb-4 text-white text-2xl text-center mr-5'>Frequently Asked Questions</p>
 
-            <div className='bg-white/25 rounded-2xl ml-5 mr-5'>
+            <div className='bg-white/25 rounded-2xl md:mx-15 mx-5'>
                 {options.map((opt) => (
                     <div key={opt.id}>
                         <div onClick={() => { console.log("clicked", opt.id); setActive(() => active === opt.id ? null : opt.id); }}>

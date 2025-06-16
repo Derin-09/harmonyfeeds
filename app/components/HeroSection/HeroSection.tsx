@@ -31,7 +31,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-lg"
           >
-            Harmony Feeds, Ota, Ogun State, is your go-to source for 100% organic animal feed, fertilizer, and medicine
+            Harmony Feeds, Ota, Ogun State, is your go-to source for 100% organic animal feed, fertilizer, and medicine.
           </motion.p>
         </div>
 

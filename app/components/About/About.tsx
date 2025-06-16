@@ -28,8 +28,8 @@ const features = [
 
 const About = () => {
   return (
-    <main className="bg-[#645D3D] w-screen pt-10 select-none pb-10" id="About">
-      <div className="px-5">
+    <main className="bg-[#645D3D] max-w-screen pt-10 select-none pb-10" id="About">
+      <div className="px-5 ">
         <p className="text-center font-bold text-2xl pb-4">Why Choose Harmony Feeds?</p>
         <motion.p
           initial={{ opacity: 0, y: -10 }}
@@ -41,7 +41,7 @@ const About = () => {
           At Harmony Feeds, we&apos;re more than just an animal feed store — we&apos;re your partner in raising healthy, happy animals. Here&apos;s what makes us different:
         </motion.p>
 
-        <div>
+        <div className='md:px-30 '>
           {features.map((item, index) => (
             <motion.div
               key={item.title}
@@ -49,7 +49,7 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="p-7 border-1 border-white/30 rounded-2xl bg-white/25 mb-5"
+              className="p-7 border-1 border-white/30 rounded-2xl bg-white/25 mb-5  "
             >
               <p className="text-center font-bold text-white">{item.title}</p>
               <p className="text-center text-gray-300 text-sm">{item.desc}</p>
