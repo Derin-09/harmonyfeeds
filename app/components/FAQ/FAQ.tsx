@@ -34,7 +34,7 @@ const FAQ = () => {
                 {options.map((opt) => (
                     <div key={opt.id}>
                         <div onClick={() => { console.log("clicked", opt.id); setActive(() => active === opt.id ? null : opt.id); }}>
-                            <div className=' hover:bg-neutral-700 hover:cursor-pointer ml-5 mr-5 mb-0.5  py-4 flex justify-between items-center'>
+                            <div className=' hover:text-[#880015] hover:cursor-pointer ml-5 mr-5 mb-0.5  py-4 flex justify-between items-center'>
 
                                 <p className='text-lg'>{opt.question}</p>
                                 <button className='text-4xl font-extralight'>
