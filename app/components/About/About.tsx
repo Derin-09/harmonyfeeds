@@ -28,7 +28,7 @@ const features = [
 
 const About = () => {
   return (
-    <main className="bg-[#645D3D] max-w-screen pt-10 select-none pb-10" id="About">
+    <main className="bg-[#3F1D0E] max-w-screen pt-10 select-none pb-10" id="About">
       <div className="px-5 ">
         <p className="text-center font-bold text-2xl pb-4">Why Choose Harmony Feeds?</p>
         <motion.p

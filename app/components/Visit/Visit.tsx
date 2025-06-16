@@ -2,7 +2,7 @@ import React from 'react'
 
 const Visit = () => {
   return (
-    <main className='bg-[#3F1D0E] px-5 md:px-15 select-none' id='Visit'>
+    <main className='bg-[#645D3D] px-5 md:px-15 select-none' id='Visit'>
       <h2 className="text-2xl font-bold mb-6 ">Visit Us</h2>
       <div className="h-96 w-full rounded-lg overflow-hidden">
         <iframe

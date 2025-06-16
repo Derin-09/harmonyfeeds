@@ -27,7 +27,7 @@ const FAQ = () => {
 
     return (
 
-        <main className=' pb-10  select-none bg-gradient-to-b from-[#645D3D] to-[#3F1D0E] pt-5' id='FAQ'>
+        <main className=' pb-10  select-none bg-gradient-to-b from-[#3F1D0E] to-[#645D3D] pt-5' id='FAQ'>
             <p className='font-bold ml-5 pb-4 text-white text-2xl text-center mr-5'>Frequently Asked Questions</p>
 
             <div className='bg-white/25 rounded-2xl md:mx-15 mx-5'>
