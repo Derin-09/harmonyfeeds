@@ -38,7 +38,7 @@ const About = () => {
           viewport={{ once: true }}
           className="pb-4 text-center text-white/90"
         >
-          At Harmony Feeds, we're more than just an animal feed store — we're your partner in raising healthy, happy animals. Here's what makes us different:
+          At Harmony Feeds, we&apos;re more than just an animal feed store — we&apos;re your partner in raising healthy, happy animals. Here&apos;s what makes us different:
         </motion.p>
 
         <div>
