@@ -31,7 +31,6 @@ const FAQ = () => {
   id="FAQ"
   style={{ backgroundImage: "url('/images/background2.avif')" }}
 >
-  {/* ✅ Bottom fade only */}
   <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-[#645D3D] z-0 pointer-events-none"></div>
 
   <div className="relative z-10">
