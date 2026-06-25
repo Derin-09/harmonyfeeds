@@ -32,17 +32,17 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-center">
                 <PhoneIcon className="w-4 h-4 mr-2" />
-                <a href="tel:+2348163309006" className="text-white underline">
-                  +234 816 330 9006
-                </a><a href="tel:+2349019474548" className="text-white underline">
-                  +234 901 947 4548
+                <a href="tel:+2347032508845" className="text-white underline">
+                  +234 7032508845
+                </a><a href="tel:+2347088303206" className="text-white underline">
+                  +234 7088303206
                 </a>
               </li>
               {/*<li className="flex items-center">
-                <EnvelopeIcon className="w-4 h-4 mr-2" /> hello@bloomandroot.com
+                <EnvelopeIcon className="w-4 h-4 mr-2" /> agrolinksginex@gmail.com
               </li>*/}
               <li className="flex items-center">
-                <MapPinIcon className="w-4 h-4 mr-2" /> Iju-Love, Opposite Love B/Stop, Ota,  Ogun State, Nigeria
+                <MapPinIcon className="w-4 h-4 mr-2" /> Iju-Love, Love B/Stop, Ota,  Ogun State, Nigeria
               </li>
             </ul>
           </div>
