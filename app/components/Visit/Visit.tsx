@@ -20,10 +20,10 @@ const Visit = () => {
         <p className=" mb-2"><strong>Address:</strong> Iju-Love, Opposite Love B/Stop, Ota,  Ogun State, Nigeria</p>
         <p className=" mb-2"><strong>Hours:</strong> Mon-Sat: 9am-6:30pm</p>
         <div className=""><strong>Phone:</strong>
-          <a href="tel:+2348163309006" className="text-white underline">
-            +234 816 330 9006
-          </a> <a href="tel:+2349019474548" className="text-white underline">
-            +234 901 947 4548
+          <a href="tel:+2347032508845" className="text-white underline">
+            +234 7032508845
+          </a> <a href="tel:+2347088303206" className="text-white underline">
+            +234 7088303206
           </a></div>
       </div>
 
